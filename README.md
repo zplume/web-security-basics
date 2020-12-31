@@ -50,7 +50,7 @@ TODO
 
 TODO
 
-* Reference haveibeenpwned.com
+* [Have I Been Pwned](haveibeenpwned.com)
 
 ### Password strength and password cracking
 
@@ -90,13 +90,22 @@ TODO
 * Google Authenticator
 * ...
 
-## Use a modern web browser and update it as soon as updates are available
+## Use a modern web browser
 
 TODO
 
-* Chrome
-* Edge (Chrome based version)
+### Modern web browsers
+
+* Chrome / Chromium
+* Edge (Chromium version)
 * Firefox
+
+TODO - A note about browsers on iOS (these all use iOS Safari browser engine)
+
+### Not modern web browsers
+
+* Internet Explorer
+* Safari
 
 ## Avoid clicking links in emails/texts where possible
 ### About phishing
@@ -123,6 +132,9 @@ TODO
 
 TODO
 
+* Why
+* How
+
 ### Benefits of using a password manager
 
 * Unique, strong passwords
@@ -133,10 +145,14 @@ TODO
 * Passwords can be securely shared with family members / colleagues where appropriate.
 
 ## HTTP vs HTTPS
+
 TODO
 
+* What is HTTPS and why is it important?
+* Why is HTTP dangerous, even on static sites like blogs?
 
-## HTTPS Everywhere
+### HTTPS Everywhere
+
 TODO
 
 ## Ad-blockers
@@ -146,33 +162,54 @@ TODO
 * uBlock Origin
 * ...
 
-## Device security basics
+## Desktop security basics
 
-TODO
+### Security features and updates
 
-* Be careful about which software you download and install and especially **where** you download it from.
-* ...
-
-### Desktop
-
-TODO
-
+* OS updates
 * Browser updates
-* OS updates
-* Firewall
-* Anti-virus
+* Enable OS firewall
+* Enable OS anti-virus
+* Mac/Linux firewall/anti-virus?
 
-### Mobile
+### Malicious software
 
 TODO
 
-* App updates
+Always be careful when downloading software from the internet. Try to only download software from reputable sources.
+
+Hackers may attempt to trick you into downloading malicious software (viruses/trojans/ransomware/keyloggers etc).
+
+TODO - examples:
+
+* Sites that host downloads for software they don't own - these can show up along side genuine search results and are probably best avoided
+* Fake websites that mimic their real counterparts and include software download links
+* Adverts in search results for fake sites
+* Torrent sites and pirated software / key-generators etc
+
+Once malicious software is installed on your computer, it can be difficult to detect or remove (see **rootkits**) and can allow hackers to take control of your computer remotely, steal your account login details / credit card details, install 'ransomware', which prevents you from accessing files on your computer until you pay them a ransom or add your computer to a botnet.
+
+TODO - tidy up, botnet reference.
+
+### Mobile security basics
+
+TODO
+
 * OS updates
-* DNS / VPN apps
+* App updates
+* App permissions
+
+## VPNs
+
+TODO
+
+* Who to trust? ISP vs VPN provider
+* VPN + unsecured public WiFi
+* Not a silver bullet for security or privacy
 
 ## References
 
 TODO
 
-* [HowTo: Privacy & Security Conscious Browsing](https://gist.github.com/atcuno/3425484ac5cce5298932)
+* For a more in-depth guide on web browsing security and privacy considerations, I highly recommend [HowTo: Privacy & Security Conscious Browsing](https://gist.github.com/atcuno/3425484ac5cce5298932)
 * ...
