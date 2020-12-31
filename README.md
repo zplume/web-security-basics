@@ -118,7 +118,7 @@ Lots of phishing emails will try and persuade you that some urgent action is req
 
 Rather than clicking (or tapping) links from emails or text messages - even if they **look** legitimate - navigate to the website yourself, ideally using your password manager, browser favourites or Google, and log-in to the website to see if any action really is required.
 
-Password managers can help you being tricked by phishing sites as they won't autofill your details for the fake site.
+Password managers can help prevent you from being tricked by phishing sites as they won't autofill your details for fake sites.
 
 ## Use a password manager
 
