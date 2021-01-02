@@ -17,47 +17,88 @@ This document does not go into great detail on **device security** (another big 
 What is potentially at stake if you get hacked?
 
 * Identity theft
+* Hackers gain access to your credit card details and purchase goods using those accounts / details
 * Hackers gain access to your private personal/business data
-* Hackers gain access to accounts with saved credit card details and purchase goods using those accounts / details
+
+## Common threats
+
+* Data breaches
+* Password guessing/cracking
+* Software security vulnerabilities
+* Phishing
+
+Read on for more information on these threats and techniques to avoid them.
 
 ## Data breaches
 ### What is a data breach?
 
-TODO 
+A data breach occurs when private/confidential data is stolen from a company's computer systems and copied or transmitted elsewhere, enabling others to access it who would otherwise be unable and unauthorised to do so.
 
-### What happens after a data breach?
+### What data can be leaked during a breach?
 
-TODO
+If you have an account with a company whose systems have been breached, it's possible that your private data has been accessed in the breach and shared with others, who may attempt to use that information for personal/financial gain.
 
-* User account details, such as login information, personal private data and credit card information can be purchased or downloaded from the 'dark web'...
-* Hackers may attempt access to other websites using username/password combinations they've gained access to from the data breach, or they may cross-reference that information with information on the same user from other data breaches - perhaps to build a list of known passwords for that email address against common websites, or just to combine data from multiple websites to be used in identity theft.
+This could include your account username and password, your credit card information or other personal/sensitive data, depending on what information the company had about you and how securely it was stored.
 
-### Why is reusing the same password on multiple websites a bad idea
+### Can any company be affected by a data breach?
 
-TODO
+Yes - companies large or small can be the target of a data breach.
 
-* Breach + reused user/password combination = hackers gaining access to your account for other websites that weren't breached.
-* [xkcd - Password Reuse](https://xkcd.com/792/)
+Here are some recent examples:
 
-### Which companies are at risk of data breach?
+* Adobe
+* Avast
+* BitTorrent
+* Bitly
+* Dailymotion
+* Disqus
+* Domino's
+* Dropbox
+* Epic Games
+* Experian
+* Kickstarter
+* LinkedIn
+* Patreon
+* Snapchat
+* Sony
+* Tesco
+* Vodafone
+* Yahoo
 
-TODO
+See [Have I Been Pwned - Pwned Websites](https://haveibeenpwned.com/PwnedWebsites) for a more examples of companies who've suffered a data breach.
 
-* Examples
-* Even websites run by large brands with large budgets) are at risk of data breaches.
+### How can I find out if my data was included in a data breach?
 
-### Have my details been exposed by a breach?
+Check out Troy Hunt's [Have I Been Pwned](https://haveibeenpwned.com) website.
 
-TODO
+By simply entering your email address, you can find out (for FREE) if any accounts associated with that email address have been included in a data breach, which companies were breached and when, and what information was leaked in each breach.
 
-* [Have I Been Pwned](haveibeenpwned.com)
+### Password reuse - don't do it
 
-### Password strength and password cracking
+If your username and password for a website is leaked during a data breach, hackers may attempt to access other websites with that username/password combination, in the hopes that you have used the same password for multiple websites.
 
-TODO
+For this reason it is recommended to use unique, strong passwords for each website account you use.
+
+[xkcd - Password Reuse](https://xkcd.com/792/)
+
+## Password guessing/cracking
+
+Another way hackers may attempt to gain access to your online accounts is by guessing your password from a list of commonly used passwords or by combining common words and phrases.
 
 * Most common passwords (ref)
+
+### Strong passwords
+
 * [xkcd - Password Strength](https://xkcd.com/936/)
+
+## Software security vulnerabilities
+
+TODO
+
+* OS
+* Software
+* Vulnerability
+* Exploit
 
 ## Multi-factor authentication
 ### What is authentication
@@ -126,7 +167,7 @@ TODO
 
 * LastPass
 * 1Password
-* ...
+* Dashlane
 
 ## Disable your web browser's in-built password manager
 
