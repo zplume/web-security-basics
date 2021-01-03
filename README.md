@@ -20,25 +20,29 @@ What is potentially at stake if you get hacked?
 * Hackers gain access to your credit card details and purchase goods using those accounts / details
 * Hackers gain access to your private personal/business data
 
-## Common threats
+## Common risks
 
 * Data breaches
-* Password guessing/cracking
-* Software security vulnerabilities
+* Common, weak or reused passwords
 * Phishing
+* Software security vulnerabilities
 
-Read on for more information on these threats and techniques to avoid them.
+Read on for more information each of these risks and for techniques to avoid them.
 
 ## Data breaches
 ### What is a data breach?
 
-A data breach occurs when private/confidential data is stolen from a company's computer systems and copied or transmitted elsewhere, enabling others to access it who would otherwise be unable and unauthorised to do so.
+A data breach occurs when private/confidential data is leaked or stolen from a company's computer systems and copied or transmitted elsewhere, enabling others to access it who would otherwise be unauthorised to do so.
 
 ### What data can be leaked during a breach?
 
-If you have an account with a company whose systems have been breached, it's possible that your private data has been accessed in the breach and shared with others, who may attempt to use that information for personal/financial gain.
+The type of data that is leaked in a breach depends on the nature of the breach, what data the associated systems contained and how effectively those systems were secured.
 
-This could include your account username and password, your credit card information or other personal/sensitive data, depending on what information the company had about you and how securely it was stored.
+For example, the following types of information may be included in a breach:
+
+* Your username and password for the website
+* Credit card / payment details (if these were collected and stored by the website)
+* Personal / sensitive data (if this was collected and stored by the website)
 
 ### Can any company be affected by a data breach?
 
@@ -67,29 +71,84 @@ Here are some recent examples:
 
 See [Have I Been Pwned - Pwned Websites](https://haveibeenpwned.com/PwnedWebsites) for a more examples of companies who've suffered a data breach.
 
-### How can I find out if my data was included in a data breach?
+### How can I find out if my account(s) were included in a data breach?
 
 Check out Troy Hunt's [Have I Been Pwned](https://haveibeenpwned.com) website.
 
 By simply entering your email address, you can find out (for FREE) if any accounts associated with that email address have been included in a data breach, which companies were breached and when, and what information was leaked in each breach.
 
-### Password reuse - don't do it
+### What to do if your account(s) are included in a breach
 
-If your username and password for a website is leaked during a data breach, hackers may attempt to access other websites with that username/password combination, in the hopes that you have used the same password for multiple websites.
+* Change your password on the affected accounts - use a strong, unique password for each account.
+* If the affected account(s) used a password that you also used on other websites, make sure to change your password on each of those websites to a unique, strong password.
+* Enable multi-factor authentication on the affected accounts.
+* If the breach may have contained credit card / payment information, keep an eye on your financial accounts for transactions you did not make and consider contacting your bank's fraud department.
 
-For this reason it is recommended to use unique, strong passwords for each website account you use.
+See below for more details on using strong, unique passwords and multi-factor authentication.
 
-[xkcd - Password Reuse](https://xkcd.com/792/)
+## Passwords
 
-## Password guessing/cracking
+Hackers may attempt to guess their way into your account by trying commonly used passwords, passwords retrieved from a data breach or 'brute-forcing' your password by trying random combinations of characters.
 
-Another way hackers may attempt to gain access to your online accounts is by guessing your password from a list of commonly used passwords or by combining common words and phrases.
+* Don't use simple or common passwords that are easy to guess
+* Don't use the same password on multiple websites
+* Create a strong, unique password for each website account you use
 
-* Most common passwords (ref)
+A strong password is long and hard to guess.
+A common technique for creating hard to guess passwords is to use a mix of letters (upper and lower case), numbers and other characters.
 
-### Strong passwords
+### Common, weak passwords
 
-* [xkcd - Password Strength](https://xkcd.com/936/)
+Here are some examples of weak, common passwords:
+
+[Top 200 most common passwords 2020](https://nordpass.com/most-common-passwords-list/)
+
+### Don't use the same password on multiple websites
+
+If your username/email and password for a website is leaked during a data breach, hackers may attempt to access other websites with that username/password combination, in the hopes that you have used the same password there too.
+
+Use a unique password for each website to avoid this risk.
+
+### Use a password manager
+
+To create a strong, unique password for each website you use, it is recommended to use a password manager. 
+
+Password managers help you generate strong, unique passwords for each website you use and keep a record of each of your passwords so you don't have to remember them yourself.
+
+Other useful features of password managers include:
+
+* Auto-fill of your username and password on websites you have used previously when you need to login
+* Passwords available across multiple devices (e.g. laptop, desktop, phone, tablet)
+* Passwords can be securely shared with family members / colleagues if appropriate.
+
+Here are some popular password managers:
+
+* LastPass
+* 1Password
+* Dashlane
+
+### Disable your web browser's in-built password manager
+
+TODO
+
+* Why
+* How
+
+## Phishing
+
+TODO
+
+### Avoid clicking links in emails/texts where possible
+
+Lots of phishing emails will try and persuade you that some urgent action is required, e.g. to prevent a fraudulent payment, confirm a transaction or prevent deletion of your account.
+
+Rather than clicking (or tapping) links from emails or text messages - even if they **look** legitimate - navigate to the website yourself, ideally using your password manager, browser favourites or Google, and log-in to the website to see if any action really is required.
+
+Password managers can help prevent you from being tricked by phishing sites as they won't autofill your details for fake sites.
+
+### Social engineering
+
+TODO
 
 ## Software security vulnerabilities
 
@@ -148,42 +207,6 @@ TODO - A note about browsers on iOS (these all use iOS Safari browser engine)
 * Internet Explorer
 * Safari
 
-## Avoid clicking links in emails/texts where possible
-### About phishing
-
-TODO
-
-### Don't click or tap on links!
-
-Lots of phishing emails will try and persuade you that some urgent action is required, e.g. to prevent a fraudulent payment, confirm a transaction or prevent deletion of your account.
-
-Rather than clicking (or tapping) links from emails or text messages - even if they **look** legitimate - navigate to the website yourself, ideally using your password manager, browser favourites or Google, and log-in to the website to see if any action really is required.
-
-Password managers can help prevent you from being tricked by phishing sites as they won't autofill your details for fake sites.
-
-## Use a password manager
-
-TODO
-
-* LastPass
-* 1Password
-* Dashlane
-
-## Disable your web browser's in-built password manager
-
-TODO
-
-* Why
-* How
-
-### Benefits of using a password manager
-
-* Unique, strong passwords
-* Uniqueness means that when one site gets hacked, anyone who gains access to that username and password won't automatically be able to access other sites that use the same combination of username and password
-* Multi-factor/two-factor authentication also helps prevent you getting hacked across multiple services when one gets hacked
-* Auto-fill on many sites
-* Passwords available across multiple devices (e.g. laptop, desktop, phone, tablet)
-* Passwords can be securely shared with family members / colleagues where appropriate.
 
 ## HTTP vs HTTPS
 
