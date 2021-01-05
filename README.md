@@ -88,20 +88,18 @@ See below for more details on using strong, unique passwords and multi-factor au
 
 ## Passwords
 
-Hackers may attempt to guess their way into your account by trying commonly used passwords, passwords retrieved from a data breach or 'brute-forcing' your password by trying random combinations of characters.
+Hackers may attempt to gain access to your online accounts by trying commonly used passwords, trying passwords retrieved from a data breach or by 'brute force': trying many possible passwords by randomly combining letters, numbers and special characters.
 
-* Don't use simple or common passwords that are easy to guess
+### Password tips
+
+To make your passwords more secure:
+
+* Don't use [simple or common passwords](https://nordpass.com/most-common-passwords-list/) that are easy to guess
 * Don't use the same password on multiple websites
 * Create a strong, unique password for each website account you use
 
 A strong password is long and hard to guess.
-A common technique for creating hard to guess passwords is to use a mix of letters (upper and lower case), numbers and other characters.
-
-### Common, weak passwords
-
-Here are some examples of weak, common passwords:
-
-[Top 200 most common passwords 2020](https://nordpass.com/most-common-passwords-list/)
+One technique for creating hard to guess passwords is to use a mix of letters (upper and lower case), numbers and other characters.
 
 ### Don't use the same password on multiple websites
 
@@ -123,9 +121,9 @@ Other useful features of password managers include:
 
 Here are some popular password managers:
 
-* LastPass
-* 1Password
-* Dashlane
+* [LastPass](https://www.lastpass.com/)
+* [1Password](https://1password.com/)
+* [Dashlane](https://www.dashlane.com/)
 
 ### Disable your web browser's in-built password manager
 
@@ -228,15 +226,7 @@ TODO
 
 ## Desktop security basics
 
-### Security features and updates
-
-* OS updates
-* Browser updates
-* Enable OS firewall
-* Enable OS anti-virus
-* Mac/Linux firewall/anti-virus?
-
-### Malicious software
+### Malicious software (malware)
 
 TODO
 
@@ -254,6 +244,36 @@ TODO - examples:
 Once malicious software is installed on your computer, it can be difficult to detect or remove (see **rootkits**) and can allow hackers to take control of your computer remotely, steal your account login details / credit card details, install 'ransomware', which prevents you from accessing files on your computer until you pay them a ransom or add your computer to a botnet.
 
 TODO - tidy up, botnet reference.
+
+### Security features and updates
+
+* Enable automatic updates for your computer's operating system
+* Update your web browser as soon as updates are available
+
+#### Windows
+
+* Enable Windows Firewall
+* Enable Microsoft Defender Anti-Virus
+
+#### MacOS (Apple)
+
+**Application firewall**
+
+Enable [application firewall](https://support.apple.com/en-gb/HT201642)
+* Security & Privacy > Firewall
+* Click the lock to make changes
+* Enter your mac password
+* Firewall Options
+* Untick **Automatically allow...** options
+* Tick **Enable stealth mode**
+* Consider enabling **Block all incoming connections**.
+* Alternatively, remove or set to **Block incoming connections** any listed applications that do not require incoming connections
+
+**Anti-virus**
+
+While MacOS does include some great features to prevent installation or execution of malware (e.g. Gatekeeper, XProtect) you may also want to use a 3rd party anti-virus application to catch anything that could bypass the MacOS security features.
+
+[The best Mac antivirus for 2020](https://www.macworld.co.uk/feature/mac-antivirus-3672182/)
 
 ### Mobile security basics
 
